@@ -1,0 +1,29 @@
+.maps{
+   background-color: rgb(123, 146, 184);
+   padding-top: 60px;
+   padding-bottom: 60px;
+}
+.endreco{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 10px;
+   img{
+      width: 150px;
+   }
+   p{
+      font-size: 2.5rem;
+   }
+}
+.iframe{
+   width: 90%;
+   margin-left: 5%;
+   height: 480px;
+   border: 2px solid blue;
+   border-radius: 3px;
+}
+iframe{
+   width: 100%;
+   height: 100%;
+}

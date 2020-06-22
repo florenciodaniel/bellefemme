@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>LAYOUT 01</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+      <link href="css/boot.css" rel="stylesheet" type="text/css"/>
+      <link href="css/estilo.css" rel="stylesheet" type="text/css"/>
+      <link href="css/bootanime.css" rel="stylesheet" type="text/css"/>
+
+   </head>
+   <body>
+      
+         <header id="header-topo">
+            <nav class="nav-topo">
+               <ul class="ul-logo">
+                  <li><a href="#banner" onclick="merda()"><img src="img/logobelle.png" alt=""/></a></li>
+
+               </ul>
+
+               <div id="menu_img">
+
+                  <img id="img1" onclick="mostrar1()" alt="hindu" src="img/menu/menu_fechado.png">
+                  <img id="img2" onclick="mostrar2()" alt="hindu" src="img/menu/menu_aberto.png" class="naoMostrar">
+               </div>
+               <ul id="ul-link" class="ul-link inativo">
+                  <li><a href="#banner" onclick="merda()">Home</a></li>
+                  <li><a href="#servicos" onclick="merda()">Serviços</a></li>
+                  <li><a href="#equipe" onclick="merda()">Equipe</a></li>
+                  <li><a href="#galeria" onclick="merda()">Galeria</a></li>
+                  <li><a href="#contato" onclick="merda()">Contato</a></li>
+                  
+               </ul>
+            </nav>
+         </header>
+         <!--      ----------------------BANNER--------------------------------  -->
+         <div class="icon_clicavel ">
+            <img class="boraclicar" src="img/igf_icons.gif" alt=""/>
+         </div>
+         <nav>
+            <div class="icons_tela_pequena">
+               <div class="icon_face">
+                  <a href="https://www.facebook.com/index.php?lh=07b78b49b97ddfb43fe768d607e0903a" target="_blank"> <img src="img/icons/faceicon.png" alt=""/></a>
+               </div>
+
+               <div class="icon_insta">
+                  <a href="https://www.instagram.com/" target="_blank"><img src="img/icons/instaicon.png" alt=""/></a>
+               </div>
+
+               <div class="icon_tube">
+                  <a href="https://www.youtube.com/channel/UCpvXVdFYmVP_XzfGiugAKbQ" target="_blank">
+                     <img src="img/icons/tubeicon.png" alt=""/></a>
+               </div>
+
+               <div class="icon_whats">
+                  <a href="https://web.whatsapp.com/" target="_blank">
+                     <img src="img/icons/whatupicon.png" alt=""/></a>
+               </div>
+            </div>
+
+
+            <div class="icons_tela_grande">
+
+
+
+               <div class="facebook social-button">
+                  <div>
+                     <a class="a_preto_porra" href="https://www.facebook.com/index.php?lh=07b78b49b97ddfb43fe768d607e0903a" target="_blank">Facebook</a>
+                  </div>
+                  <div class="cover">
+                     <div class="inner">
+                        <img src="img/icons/faceicon.png" alt=""/>     
+                     </div>
+                     <div class="edge"></div>
+                     <div class="outer">
+                        <img src="img/icons/faceicon.png" alt=""/>
+                     </div>
+                  </div>
+                  <div class="shadow"></div>
+               </div> 
+
+
+               <div class="instagram social-button">
+                  <div>
+                     <a class="a_preto_porra" href="https://www.instagram.com/" target="_blank">Instagram</a>
+                  </div>
+                  <div class="cover">
+                     <div class="inner">  
+                        <img src="img/icons/instaicon.png" alt=""/>
+                     </div>
+                     <div class="edge"></div>
+                     <div class="outer">
+                        <img src="img/icons/instaicon.png" alt=""/>
+                     </div>
+                  </div>
+                  <div class="shadow"></div>
+               </div> 
+
+               <div class="youtube social-button">
+                  <div>
+                     <a class="a_preto_porra" href="https://www.youtube.com/channel/UCpvXVdFYmVP_XzfGiugAKbQ" target="_blank">Youtube</a>
+                  </div>
+                  <div class="cover">
+                     <div class="inner">  
+                        <img src="img/icons/tubeicon.png" alt=""/>
+                     </div>
+                     <div class="edge"></div>
+                     <div class="outer">
+                        <img src="img/icons/tubeicon.png" alt=""/>
+                     </div>
+                  </div>
+                  <div class="shadow"></div>
+               </div> 
+
+               <div class="whatsapp social-button">
+                  <div>
+                     <a class="a_preto_porra" href="https://web.whatsapp.com/" target="_blank">Whatsapp</a>
+                  </div>
+                  <div class="cover">
+                     <div class="inner">  
+                        <img src="img/icons/whatupicon.png" alt=""/>
+                     </div>
+                     <div class="edge"></div>
+                     <div class="outer">
+                        <img src="img/icons/whatupicon.png" alt=""/>
+                     </div>
+                  </div>
+                  <div class="shadow"></div>
+               </div> 
+            </div>
+         </nav>
+
+         <section class="slide_home" id="banner">
+
+
+            <div class="cycle-slideshow"
+                 data-cycle-fx=fadeout
+                 data-cycle-timeout=3200
+                 data-cycle-pager-event="mouseover"
+                 >
+
+               <div class="cycle-pager"></div>
+               <div class="cycle-overlay"></div>
+               <img  src="img/woman-provisorio/ocean-4824186_1280.jpg" data-cycle-title="<h1><span>BELLEFEMME</span></h1>"
+                     data-cycle-desc="<p><span>Clínica Estética Bellefemme!</span></p>">
+
+               <img src="img/woman-provisorio/girl-2169467_1280.jpg" data-cycle-title="<h1><span>SEDUÇÂO</span></h1>" 
+                    data-cycle-desc="<p><span>Seu ponto forte de mulher!</span></p>">
+
+               <img src="img/woman-provisorio/blue-2596937_1280.jpg" data-cycle-title="<h1><span>BELEZA</span></h1>" 
+                    data-cycle-desc="<p><span>O universo mais belo com você mais linda!</span></p>">
+
+               <img src="img/woman-provisorio/portrait-4778337_1280.jpg" data-cycle-title="<h1><span>PODER</span></h1>" 
+                    data-cycle-desc="<p><span>Todo seu poder feminino na conquista do seu mundo!</span></p>">
+            </div>
+
+
+
+
+
+         </section>
+
+         <!--         ------------------introdução---------------------------------->
+         <section class="intro">
+            <div class="bcontainer introucao" data-boot_aparecer="dir">
+               <h1 class="bfont_4 bmar_34 btxt_cen" data-boot_flip="esquerda">BELLE FEMME</h1>
+               <h2 class="bfont_3 bmar_34 btxt_cen">Toda a beleza femenina em uma agência pra você</h2>
+               <p class="bfont_2 bmar_2 btxt_jus">Vivamus in dapibus nulla. In id dui vel felis finibus varius. Vestibulum interdum dui ac ligula faucibus, pharetra varius ipsum mattis. Cras velit felis, lobortis vel massa et, maximus vehicula sem. Nam nec dui libero. Nam pretium elementum porta. Suspendisse rutrum luctus elit ac rhoncus. Vestibulum pharetra magna ante, et condimentum nisl rhoncus id. Ut a faucibus tellus. Sed sodales, nisl eget congue auctor, nibh leo fringilla odio, ut posuere libero purus eu quam.</p>
+               <p class="bfont_2 bmar_2 btxt_jus">Vivamus in dapibus nulla. In id dui vel felis finibus varius. Vestibulum interdum dui ac ligula faucibus, pharetra varius ipsum mattis. Cras velit felis, lobortis vel massa et, maximus vehicula sem. Nam nec dui libero. Nam pretium elementum porta. Suspendisse rutrum luctus elit ac rhoncus. Vestibulum pharetra magna ante, et condimentum nisl rhoncus id. Ut a faucibus tellus. Sed sodales, nisl eget congue auctor, nibh leo fringilla odio, ut posuere libero purus eu quam.</p>
+            </div>
+         </section>
+
+         <!--      ----------------------SERVIÇOS--------------------------------  -->
+         <div id="servicos" class="servicos">
+            <div class="servicos-titulo">
+               <h1 class="servicos-titulo-h1" data-boot_aparecer="aparecer">Qualidade em serviços de beleza</h1>
+            </div>
+            <div class="servicos-subtitulo">
+               <p class="servicos-subtitulo-p">Desde a mais simples procedimento a uma tranformação completa nossos serviços são insuperaveis</p>
+            </div>
+            <div class="servicos-container">
+               <div class="servicos-box" data-boot_flip="baixo">
+                  <h3 class="btxt_cen bfont_22 bpad_15">tratamento capilar</h3>
+                  <img src="img/servicos/cabelos-pintados.jpg" alt=""/>
+                  <p class="btxt_jus bfont_16 bpad_15">Suspendisse rutrum luctus elit ac rhoncus. Vestibulum pharetra magna ante, et condimentum nisl rhoncus id. Ut a faucibus tellus. Sed sodales, nisl eget congue auctor, nibh leo fringilla odio, ut posuere libero purus eu quam.</p>
+               </div>
+               <div class="servicos-box" data-boot_flip="baixo">
+                  <h3 class="btxt_cen bfont_22 bpad_15">manicuri e pedicuri</h3>
+                  <img src="img/servicos/reproducao-manicure-cursos-artigos-cpt.jpg" alt=""/>
+                  <p class="btxt_jus bfont_16 bpad_15">Suspendisse rutrum luctus elit ac rhoncus. Vestibulum pharetra magna ante, et condimentum nisl rhoncus id. Ut a faucibus tellus. Sed sodales, nisl eget congue auctor, nibh leo fringilla odio, ut posuere libero purus eu quam.</p>
+               </div>
+               <div class="servicos-box" data-boot_flip="baixo">
+                  <h3 class="btxt_cen bfont_22 bpad_15">maquiagem</h3>
+                  <img src="img/servicos/3091343-o-pincel-duo-fibra-ajuda-a-fixar-melhor-650x488-3.jpg" alt=""/>
+                  <p class="btxt_jus bfont_16 bpad_15">Suspendisse rutrum luctus elit ac rhoncus. Vestibulum pharetra magna ante, et condimentum nisl rhoncus id. Ut a faucibus tellus. Sed sodales, nisl eget congue auctor, nibh leo fringilla odio, ut posuere libero purus eu quam.</p>
+               </div>
+               <div class="servicos-box" data-boot_flip="baixo">
+                  <h3 class="btxt_cen bfont_22 bpad_15">tratamento corporal</h3>
+                  <img src="img/servicos/unnamed.jpg" alt=""/>
+                  <p class="btxt_jus bfont_16 bpad_15">Suspendisse rutrum luctus elit ac rhoncus. Vestibulum pharetra magna ante, et condimentum nisl rhoncus id. Ut a faucibus tellus. Sed sodales, nisl eget congue auctor, nibh leo fringilla odio, ut posuere libero purus eu quam.</p>
+               </div>
+               <div class="servicos-box" data-boot_flip="baixo">
+                  <h3 class="btxt_cen bfont_22 bpad_15">consultoria</h3>
+                  <img src="img/servicos/65c2dd0ee69a6883efa06b3c457b30a02836329.jpg" alt=""/>
+                  <p class="btxt_jus bfont_16 bpad_15">Suspendisse rutrum luctus elit ac rhoncus. Vestibulum pharetra magna ante, et condimentum nisl rhoncus id. Ut a faucibus tellus. Sed sodales, nisl eget congue auctor, nibh leo fringilla odio, ut posuere libero purus eu quam.</p>
+               </div>
+            </div>
+
+         </div>
+
+
+         <!--      ----------------------EQUIPE--------------------------------  -->
+         <div id="equipe" class="equipe">
+            <h1 data-boot_aparecer="aparecer"><span>Nosso time de sucesso</span></h1>
+            <p>A melhor equipe de profissionais qualificados para um melhor atendimento e um resultado surpreedente</p>
+            <div class="pessoa-container">
+               <a href="#p1">
+                  <div class="pessoa-box">
+                     <img src="img/equipe/mul3.png" alt=""/>
+                     <div class="clique">
+                        <h6><span>Veja mais</span></h6>
+                     </div>
+                     <div class="nome">
+                        <p><span>Maria Lemes de Medeiros</span></p>
+                     </div>
+                     <div class="descricao">
+                        <h2>Massoterapeuta estetica</h2>
+                        <p>Especializada em massagem chinesa e cloripterapia indutoria consectetur adipiscing elit. Ut at euismod odio. Mauris augue mi, euismod vitae ex eu, posuere facilisis dolor. Fusce et tempor ligula. In ac lorem sed leo convallis laoreet. Duis scelerisque tellus quis est maximus sodales. Sed quis pretium massa, at gravida ligula. Nulla dignissim, arcu non consequat convallis, eros justo euismod arcu, ut semper eros tellus quis mauris. Duis vitae dignissim nunc. Nunc risus enim, dictum nec feugiat ut, facilisis luctus mauris.</p>
+                     </div>
+                  </div>
+               </a>
+               <div id="p1" class="modal_rel">
+                  <div class="modal-content">
+                     <img src="img/equipe/mul3.png" alt=""/>
+                     <div class="conteudo">
+                        <div class="texto">
+                           <h2>Massoterapeuta estetica</h2>
+                           <p>Especializada em massagem chinesa e cloripterapia indutoria consectetur adipiscing elit. Ut at euismod odio. Mauris augue mi, euismod vitae ex eu, posuere facilisis dolor. Fusce et tempor ligula. In ac lorem sed leo convallis laoreet. Duis scelerisque tellus quis est maximus sodales. Sed quis pretium massa, at gravida ligula. Nulla dignissim, arcu non consequat convallis, eros justo euismod arcu, ut semper eros tellus quis mauris. Duis vitae dignissim nunc. Nunc risus enim, dictum nec feugiat ut, facilisis luctus mauris.</p>
+                           <a href="#fechar" class="fechar">fechar</a> 
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <a href="#p2">
+                  <div class="pessoa-box">
+                     <img src="img/equipe/mul4.png" alt=""/>
+                     <div class="clique">
+                        <h6><span>Veja mais</span></h6>
+                     </div>
+                     <div class="nome">
+                        <p><span>Joaquina de Andrade Fernandez</span></p>
+                     </div>
+                     <div class="descricao">
+                        <h2>Massoterapeuta estetica</h2>
+                        <p>Especializada em massagem chinesa e cloripterapia indutoria consectetur adipiscing elit. Ut at euismod odio. Mauris augue mi, euismod vitae ex eu, posuere facilisis dolor. Fusce et tempor ligula. In ac lorem sed leo convallis laoreet. Duis scelerisque tellus quis est maximus sodales. Sed quis pretium massa, at gravida ligula. Nulla dignissim, arcu non consequat convallis, eros justo euismod arcu, ut semper eros tellus quis mauris. Duis vitae dignissim nunc. Nunc risus enim, dictum nec feugiat ut, facilisis luctus mauris.</p>
+                     </div>
+                  </div>
+               </a>
+               <div id="p2" class="modal_rel">
+                  <div class="modal-content">
+                     <img src="img/equipe/mul4.png" alt=""/>
+                     <div class="conteudo">
+                        <div class="texto">
+                           <h2>Massoterapeuta estetica</h2>
+                           <p>Especializada em massagem chinesa e cloripterapia indutoria consectetur adipiscing elit. Ut at euismod odio. Mauris augue mi, euismod vitae ex eu, posuere facilisis dolor. Fusce et tempor ligula. In ac lorem sed leo convallis laoreet. Duis scelerisque tellus quis est maximus sodales. Sed quis pretium massa, at gravida ligula. Nulla dignissim, arcu non consequat convallis, eros justo euismod arcu, ut semper eros tellus quis mauris. Duis vitae dignissim nunc. Nunc risus enim, dictum nec feugiat ut, facilisis luctus mauris.</p>
+                           <a href="#fechar" class="fechar">fechar</a> 
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <a href="#p3">
+                  <div class="pessoa-box">
+                     <img src="img/equipe/mul5.png" alt=""/>
+                     <div class="clique">
+                        <h6><span>Veja mais</span></h6>
+                     </div>
+                     <div class="nome">
+                        <p><span>Clarice Sevala</span></p>
+                     </div>
+                     <div class="descricao">
+                        <h2>Massoterapeuta estetica</h2>
+                        <p>Especializada em massagem chinesa e cloripterapia indutoria consectetur adipiscing elit. Ut at euismod odio. Mauris augue mi, euismod vitae ex eu, posuere facilisis dolor. Fusce et tempor ligula. In ac lorem sed leo convallis laoreet. Duis scelerisque tellus quis est maximus sodales. Sed quis pretium massa, at gravida ligula. Nulla dignissim, arcu non consequat convallis, eros justo euismod arcu, ut semper eros tellus quis mauris. Duis vitae dignissim nunc. Nunc risus enim, dictum nec feugiat ut, facilisis luctus mauris.</p>
+                     </div>
+                  </div>
+               </a>
+               <div id="p3" class="modal_rel">
+                  <div class="modal-content">
+                     <img src="img/equipe/mul5.png" alt=""/>
+                     <div class="conteudo">
+                        <div class="texto">
+                           <h2>Massoterapeuta estetica</h2>
+                           <p>Especializada em massagem chinesa e cloripterapia indutoria consectetur adipiscing elit. Ut at euismod odio. Mauris augue mi, euismod vitae ex eu, posuere facilisis dolor. Fusce et tempor ligula. In ac lorem sed leo convallis laoreet. Duis scelerisque tellus quis est maximus sodales. Sed quis pretium massa, at gravida ligula. Nulla dignissim, arcu non consequat convallis, eros justo euismod arcu, ut semper eros tellus quis mauris. Duis vitae dignissim nunc. Nunc risus enim, dictum nec feugiat ut, facilisis luctus mauris.</p>
+                           <a href="#fechar" class="fechar">fechar</a> 
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <a href="#p4">
+                  <div class="pessoa-box">
+                     <img src="img/equipe/mul1.png" alt=""/>
+                     <div class="clique">
+                        <h6><span>Veja mais</span></h6>
+                     </div>
+                     <div class="nome">
+                        <p><span>Lidya Consuelo</span></p>
+                     </div>
+                     <div class="descricao">
+                        <h2>Massoterapeuta estetica</h2>
+                        <p>Especializada em massagem chinesa e cloripterapia indutoria consectetur adipiscing elit. Ut at euismod odio. Mauris augue mi, euismod vitae ex eu, posuere facilisis dolor. Fusce et tempor ligula. In ac lorem sed leo convallis laoreet. Duis scelerisque tellus quis est maximus sodales. Sed quis pretium massa, at gravida ligula. Nulla dignissim, arcu non consequat convallis, eros justo euismod arcu, ut semper eros tellus quis mauris. Duis vitae dignissim nunc. Nunc risus enim, dictum nec feugiat ut, facilisis luctus mauris.</p>
+                     </div>
+                  </div>
+               </a>
+               <div id="p4" class="modal_rel">
+                  <div class="modal-content">
+                     <img src="img/equipe/mul1.png" alt=""/>
+                     <div class="conteudo">
+                        <div class="texto">
+                           <h2>Massoterapeuta estetica</h2>
+                           <p>Especializada em massagem chinesa e cloripterapia indutoria consectetur adipiscing elit. Ut at euismod odio. Mauris augue mi, euismod vitae ex eu, posuere facilisis dolor. Fusce et tempor ligula. In ac lorem sed leo convallis laoreet. Duis scelerisque tellus quis est maximus sodales. Sed quis pretium massa, at gravida ligula. Nulla dignissim, arcu non consequat convallis, eros justo euismod arcu, ut semper eros tellus quis mauris. Duis vitae dignissim nunc. Nunc risus enim, dictum nec feugiat ut, facilisis luctus mauris.</p>
+                           <a href="#fechar" class="fechar">fechar</a> 
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <a href="#p5">
+                  <div class="pessoa-box">
+                     <img src="img/equipe/mul2.png" alt=""/>
+                     <div class="clique">
+                        <h6><span>Veja mais</span></h6>
+                     </div>
+                     <div class="nome">
+                        <p><span>Patricia Forge Blanhh</span></p>
+                     </div>
+                     <div class="descricao">
+                        <h2>Massoterapeuta estetica</h2>
+                        <p>Especializada em massagem chinesa e cloripterapia indutoria consectetur adipiscing elit. Ut at euismod odio. Mauris augue mi, euismod vitae ex eu, posuere facilisis dolor. Fusce et tempor ligula. In ac lorem sed leo convallis laoreet. Duis scelerisque tellus quis est maximus sodales. Sed quis pretium massa, at gravida ligula. Nulla dignissim, arcu non consequat convallis, eros justo euismod arcu, ut semper eros tellus quis mauris. Duis vitae dignissim nunc. Nunc risus enim, dictum nec feugiat ut, facilisis luctus mauris.</p>
+                     </div>
+                  </div>
+               </a>
+               <div id="p5" class="modal_rel">
+                  <div class="modal-content">
+                     <img src="img/equipe/mul2.png" alt=""/>
+                     <div class="conteudo">
+                        <div class="texto">
+                           <h2>Massoterapeuta estetica</h2>
+                           <p>Especializada em massagem chinesa e cloripterapia indutoria consectetur adipiscing elit. Ut at euismod odio. Mauris augue mi, euismod vitae ex eu, posuere facilisis dolor. Fusce et tempor ligula. In ac lorem sed leo convallis laoreet. Duis scelerisque tellus quis est maximus sodales. Sed quis pretium massa, at gravida ligula. Nulla dignissim, arcu non consequat convallis, eros justo euismod arcu, ut semper eros tellus quis mauris. Duis vitae dignissim nunc. Nunc risus enim, dictum nec feugiat ut, facilisis luctus mauris.</p>
+                           <a href="#fechar" class="fechar">fechar</a> 
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+
+            </div>
+
+         </div>
+
+         <!--      ----------------------TESTIMONIALS--------------------------------  -->
+         <div class="testimonial">
+            <h2 data-boot_aparecer="aparecer">Nossa melhor propagando são clientes satisfeitos</h2>
+            <div class="testimonial-container">
+               <div class="testimonial-box" data-boot_flip="esquerda">
+                  <div class="testimonial-content">
+                     <p>
+                        i think you need to change somethings on your page , like OT logo ...
+                        and sometimes build a fully responsive websites and share it , of course not at the 10 min :)
+                     </p>
+                     <img src="img/boy-717151_1920.jpg" alt="" class="user"/>
+                     <h3>Nome Personagem</h3>
+                  </div>
+               </div>
+               <div class="testimonial-box" data-boot_flip="baixo">
+                  <div class="testimonial-content">
+                     <p>
+                        i think you need to change somethings on your page , like OT logo ...
+                        and sometimes build a fully responsive websites and share it , of course not at the 10 min :)
+                     </p>
+                     <img src="img/boy-717151_1920.jpg" alt="" class="user"/>
+                     <h3>Nome Personagem</h3>
+                  </div>
+               </div>
+               <div class="testimonial-box" data-boot_flip="direita">
+                  <div class="testimonial-content">
+                     <p>
+                        i think you need to change somethings on your page , like OT logo ...
+                        and sometimes build a fully responsive websites and share it , of course not at the 10 min :)
+                     </p>
+                     <img src="img/boy-717151_1920.jpg" alt="" class="user"/>
+                     <h3>Nome Personagem</h3>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!--               ----------------------CONTATO-------------------------------- --> 
+         <div id="contato" class="bcontainer contato">
+            <h2>Estamos a sua disposição</h2>
+            <p>Para um melhor atendimento disponibilamos varios meios para receber o seu contato</p>
+            <div class="contato-container">
+               <div class="contato-box">
+                  <div class="box-icon">
+                     <img src="img/icons/iconfone.png" alt=""/>
+                     <span>telefone (99)8681-5681</span>
+                  </div>
+                  <div class="box-icon">
+                     <img src="img/icons/iconfone.png" alt=""/>
+                     <span>telefone (99)8681-4519</span>
+                  </div>
+                  <div class="box-icon">
+                     <img src="img/icons/whatsicon.png" alt=""/>
+                     <span>whatsapp (99)99856-1467</span>
+                  </div>
+                  <div class="box-icon">
+                     <img src="img/icons/email-messages-icon-16.png" alt=""/>
+                     <span>contato@bellefeme.com</span>
+                  </div>
+                  <div class="box-icon">
+                     <img src="img/icons/insticon.png" alt=""/>
+                     <span>@bellefeme</span>
+                  </div>
+                  <div class="box-icon">
+                     <img src="img/icons/facicon.png" alt=""/>
+                     <span>facebook/bellefeme</span>
+                  </div>
+
+               </div>
+
+               <div class="contato-box">
+                  <p>envie sua mensagem</p>
+                  <form>
+                     <div class="form">
+                        <div class="input a1">
+                           <label>Nome completo</label>
+                           <input type="text" name="dias" autocomplete="off" required="">
+                        </div>
+                        <div class="input a2">
+                           <label>Telefone</label>
+                           <input type="text" name="dias" autocomplete="off" required="">
+                        </div>
+                        <div class="input a3">
+                           <label>Assunto</label>
+                           <input type="text" name="dias" autocomplete="off" required="">
+                        </div>
+                        <div class="input a4">
+                           <label>Menssagem</label>
+                           <textarea name="comentario">
+      
+                           </textarea>
+                        </div>
+                     </div>
+                     <div class="bwid_100 bflex bflejus_cen">
+                        <button class="bbut_blu bpad_08 bfont_2">Enviar Menssagem</button>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+
+
+         <!--      ----------------------MAPS--------------------------------  -->
+         <div class=" maps">
+            <div class="bcontainer">
+               <div class="endreco">
+                  <img src="img/iconmap.png" alt="" data-boot_flip="topo"/>
+                  <p data-boot_aparecer="aparecer"> Rua Carmelita Vieira N° 2637 </p>
+                  <p data-boot_aparecer="aparecer">Bairro São Francisco</p> 
+                  <p data-boot_aparecer="aparecer">Foz do Iguaçu - PR</p>
+               </div>
+               <div class="iframe">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8317.33211880887!2d-54.581596953662554!3d-25.516737303860385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1583693101634!5m2!1spt-BR!2sbr" width="800" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+               </div>
+            </div>    
+         </div>
+         <!--      ----------------------RODAPE--------------------------------  -->
+         <div class="rodape">
+            <div class="rodape-container">
+               <div class="links-rodape">
+                  <a>Legislação</a>
+                  <a>Trabalhe conosco</a>
+                  <a>Devoluções</a>
+                  <a>Comercial</a>
+                  <a>Pendencias</a>
+               </div>
+               <div class="bandeiras">
+                  <img src="img/banvisa.png" alt=""/>
+                  <img src="img/banmaster.png" alt=""/>
+                  <img src="img/banamer.png" alt=""/>
+                  <img src="img/banelo.png" alt=""/>
+                  <img src="img/bannaosei.png" alt=""/>
+                  <img src="img/banhiper.png" alt=""/>
+                  <img src="img/banboleto.png" alt=""/>
+               </div>
+            </div>
+            <div class="desenvolvedor">
+               <a href="">Desenvolvido e organizado por <span>Stylusprime</span> Sistemas Web -Todos os direitos reservados</a>
+            </div>
+         </div>
+         <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script> 
+         <script src="js/bootanime.js" type="text/javascript"></script>
+
+<!--         <script src="js/scrollmagic/ScrollMagic.min.js" type="text/javascript"></script>
+         <script src="js/scrollmagic/animation.gsap.min.js" type="text/javascript"></script>
+         <script src="js/scrollmagic/debug.addIndicators.min.js" type="text/javascript"></script>-->
+
+         <script src="js/cycle.js" type="text/javascript"></script>
+<!--         <script src="js/arquivo.js" type="text/javascript"></script>-->
+
+
+         <script type="text/javascript">
+                     //codigo que faz sumir o menu em telas pequenas ao clicar em um link e tambem troca o backgroud do menu fechado aberto
+                     function merda() {
+                        document.getElementById('esconder').classList.remove('active');
+                        document.getElementById('esconder').classList.add('menu');
+                        document.getElementById('menu_img').classList.remove('menu-aberto');
+                        document.getElementById('menu_img').classList.add('menu-fechado');
+
+                     }
+
+         </script>
+
+         <script>
+            //trocar a imagem do menu
+
+            function mostrar1() {
+               document.getElementById('img1').classList.add('naoMostrar');
+               document.getElementById('img2').classList.remove('naoMostrar');
+               document.getElementById('ul-link').classList.remove('inativo');
+               document.getElementById('ul-link').classList.add('ativo');
+            }
+
+
+            function mostrar2() {
+               document.getElementById('img2').classList.add('naoMostrar');
+               document.getElementById('img1').classList.remove('naoMostrar');
+               document.getElementById('ul-link').classList.remove('ativo');
+               document.getElementById('ul-link').classList.add('inativo');
+            }
+         </script>
+
+
+         <script>
+
+            //codigo que descobre qual a classe que existe no elemnto e faz a troca desta classe quando clicado
+            function menu() {
+               var classes = document.getElementById('menu_img').className;
+               if (classes == 'menu-fechado') {
+                  document.getElementById('menu_img').classList.remove('menu-fechado');
+                  document.getElementById('menu_img').classList.add('menu-aberto');
+               } else {
+                  document.getElementById('menu_img').classList.add('menu-fechado');
+                  document.getElementById('menu_img').classList.remove('menu-aberto');
+               }
+
+            }
+
+            //codigo do toggle do menu em telas pequenas
+            $("#menu_img").click(function () {
+               $(this).toggleClass('on');
+               $(".menu").toggleClass("active");
+            });
+            $(".boraclicar").click(function () {
+               $(this).toggleClass('on');
+               $(".icons_tela_pequena").toggleClass("taclicado");
+            });
+            $(".praclicar").click(function () {
+               $(this).toggleClass('on');
+               $(".pramostrar").toggleClass("mostrado");
+               $("#menu_img").click(function () {
+                  $(this).toggleClass('on');
+                  $(".pramostrar").toggleClass("desativar");
+               });
+            });
+         </script>
+         <script type="text/javascript">
+
+            //codigo que some e aparece o menu ao fazer scrooll no mouse 
+            var prevScrollpos = window.pageYOffset;
+            window.onscroll = function () {
+
+               var currentScrollpos = window.pageYOffset;
+               if (prevScrollpos > currentScrollpos) {
+                  document.getElementById("header-topo").style.top = "0";
+               } else {
+                  document.getElementById("header-topo").style.top = "-100px";
+               }
+
+               prevScrollpos = currentScrollpos;
+            }
+
+         </script>
+         <script>
+            //codigo que faz smooth suave ao clicar no link ancora ate a section escolhida
+            $('#ul-link a').on('click', function (e) {
+               if (this.hash !== '') {
+                  e.preventDefault();
+                  const hash = this.hash;
+                  $('html, body')
+                          .animate({
+                             scrollTop: $(hash).offset().top
+                          }, 800);
+               }
+            });
+         </script>
+
+
+         <script type="text/javascript">
+            //codigo que faz sumir o menu em telas pequenas ao clicar em um link e tambem troca a img do menu fechado aberto
+            function merda() {
+
+               document.getElementById('ul-link').classList.remove('ativo');
+               document.getElementById('ul-link').classList.add('inativo');
+               document.getElementById('img2').classList.add('naoMostrar');
+               document.getElementById('img1').classList.remove('naoMostrar');
+
+            }
+
+         </script>
+
+   </body>
+</html>
+

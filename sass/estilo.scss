@@ -1,0 +1,33 @@
+body { overflow-x: hidden; }
+body{
+   /*   background-color: rgb(157, 169, 227);*/
+   font-family: 'Roboto Slab', serif;
+}
+html{
+   /* a cada 1 rem sera igual a 10 pixels*/
+   font-size: 50%;
+}
+
+
+@import'topo';
+@import'banner';
+@import'slide';
+@import'intro';
+@import'servicos';
+@import'equipe';
+@import'feedback';
+@import'contato';
+@import'maps';
+@import'rodape';
+
+
+@media only screen and (min-width: 48em) {
+
+  html{
+   /* a cada 1 rem sera igual a 10 pixels*/
+   font-size: 62.5%;
+} 
+
+
+}
+
