@@ -17,7 +17,7 @@ html {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   transition: top 0.8s;
   z-index: 600;
   background-color: #1f70cc;
